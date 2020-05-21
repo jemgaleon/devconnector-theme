@@ -1,0 +1,15 @@
+{
+  "name": "devconnector-theme",
+  "version": "1.0.0",
+  "description": "Course by Traversy Media",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "compile-sass": "node-sass -w src/scss -o dist/css -r --output-style compressed "
+  },
+  "author": "Jem Galeon",
+  "license": "ISC",
+  "dependencies": {
+    "node-sass": "^4.14.1"
+  }
+}
